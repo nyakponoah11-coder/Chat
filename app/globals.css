@@ -171,9 +171,19 @@ body {
 
 .password-field { position: relative; }
 .password-field input { padding-right: 40px; }
+.login-card .show-password-btn,
 .show-password-btn {
-  position: absolute; right: 8px; top: 50%; transform: translateY(-50%);
-  background: none; border: none; cursor: pointer; font-size: 16px; padding: 4px;
+  position: absolute !important;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: auto !important;
+  background: none !important;
+  border: none !important;
+  cursor: pointer;
+  font-size: 16px !important;
+  padding: 4px !important;
+  margin-bottom: 0 !important;
 }
 
 .emoji-picker {
